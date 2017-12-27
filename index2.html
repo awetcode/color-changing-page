@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Background Color</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<script>
+
+		// Create a random color (decimal)
+		var color = Math.round( Math.random() * 0xffffff );
+
+		// Change the document's body element's backgroundColor to the random color
+		document.body.style.backgroundColor = '#' + color.toString(16);
+
+	</script>
+</body>
+</html>
